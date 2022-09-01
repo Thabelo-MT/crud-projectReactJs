@@ -36,6 +36,7 @@ function ReadProduct(){
                 <div className="col-md-2">Update</div>
                 <div className="col-md-2">Delete</div>
             </div>
+        {/*Error: loadProducts.map is not a function */}
             {loadProducts.map((products, index)=> (
             <div className="row">
                 <div className="col-md-2">{index+1}</div>
